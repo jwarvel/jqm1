@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <script src="js/jqm1.js"></script>
     <style>
         img.fullscreen {
             max-height: 100%;
@@ -15,26 +16,23 @@
     </style>
 </head>
 <body>
-<div data-role="page" id="photos">
+<div data-role="page" id="dateTime">
     <header data-role="header">
-        <h1>My Photos</h1>
+        <h1>HTML5 Date Time</h1>
     </header>
     <article data-role="content">
         <ul data-role="listview"  data-filter="true">
             <li>
-                <a href="#dog">
-                    <h1>Miniature Doberman Pinscher</h1>
-                    <img src="images/doggie_tn.jpg" alt="Min Pin" />
-                    <p>This is what happens when a
-                        friend brings a dog to the studio.</p>
+                <a href="#datePicker">
+                    <h1>Date Picker</h1>
+                    <p>Test page for date picker</p>
                 </a>
             </li>
             <li>
-                <a href="#gummies">
-                    <h1>Gummy Bears</h1>
-                    <img src="images/gummies_tn.jpg" alt="Gummy Bears" />
-                    <p>Three different poster boards...mirror for reflection,
-                        black for background white for highlights</p>
+                <a href="#timePicker">
+                    <h1>Time Picker</h1>
+
+                    <p>Test page for time picker</p>
                 </a>
             </li>
         </ul>
@@ -42,28 +40,29 @@
     <footer data-role="footer" data-position="fixed">
         <nav data-role="navbar">
             <ul>
-                <li><a href="home" data-icon="home">Home</a></li>
-                <li><a href="Photos" data-icon="grid">Photos</a></li>
+                <li><a href="index.html" data-icon="home">Home</a></li>
+                <li><a href="dateTime" data-icon="grid">Photos</a></li>
                 <li><a href="Info" data-icon="info">Info</a></li>
             </ul>
         </nav>
     </footer>
-</div><!-- Page Photos -->
+</div>
 
-<div data-role="page" id="dog">
+
+<div data-role="page" id="datePicker">
     <header data-role="header">
-        <h1>Min Pin</h1>
-        <a href="#photos" data-icon="grid" data-iconpos="notext">Photos</a>
+        <h1>Date Picker</h1>
+        <input id="dateInput" type="date"/>
     </header>
-    <img src="images/doggie.jpg" class="fullscreen" alt="Min Pin" />
+
 </div><!-- Page Dog -->
 
-<div data-role="page" id="gummies">
+<div data-role="page" id="timePicker">
     <header data-role="header">
-        <h1>Gummy Bears</h1>
-        <a href="#photos" data-icon="grid" data-iconpos="notext">Photos</a>
+        <h1>Time Picker</h1>
+        <input id="timeInput" type="time"/>
     </header>
-    <img src="images/gummies.jpg" class="fullscreen" alt="Gummy Bears" />
+
 </div><!-- Page Gummy Bears -->
 
 </body>
