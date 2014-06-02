@@ -1,0 +1,5 @@
+.hide-me {
+    width: 10px;
+    left: -100px;
+    position: absolute;
+}
