@@ -3,8 +3,8 @@ $(function(){
 
     // date time picker lauched via button
 
-    $('#nativeDateInput').hide();
-    $('#nativeTimeInput').hide();
+    //$('#nativeDateInput').hide();
+    //$('#nativeTimeInput').hide();
 
     $('.changeDateBtn').on('click', function(){
         $('#nativeDateInput').focus();
