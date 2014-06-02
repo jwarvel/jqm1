@@ -8,7 +8,7 @@ $(function(){
     });
     $('#fuelDatePicker').datepicker();
 
-    $('#datePickerPage').on('pageload'), function(){
-        console.log('date picker page loaded');
-    }
+    $('.changeDateBtn').on('click', function(){
+        $('#nativeDateInput').focus();
+    });
 });
