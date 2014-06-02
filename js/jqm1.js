@@ -6,9 +6,14 @@ $(function(){
     $('#timeInput').on('change', function(){
         $('#timeValue').html( $('#timeInput').val() );
     });
-    $('#fuelDatePicker').datepicker();
+
+    //$('#fuelDatePicker').datepicker();
 
     $('.changeDateBtn').on('click', function(){
         $('#nativeDateInput').focus();
+    });
+
+    $('.changeTimeBtn').on('click', function(){
+        $('#nativeTimeInput').focus();
     });
 });
