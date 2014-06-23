@@ -24,8 +24,9 @@ $(function(){
         stats += "document.documentElement.clientWidth: " + document.documentElement.clientWidth + "<br>";
         stats += "document.documentElement.clientHeight: " + document.documentElement.clientHeight + "<br>";
 
-        stats += "document.documentElement.offsetHeight: " + document.documentElement.offsetHeight + "<br>";
         stats += "document.documentElement.offsetWidth: " + document.documentElement.offsetWidth + "<br>";
+        stats += "document.documentElement.offsetHeight: " + document.documentElement.offsetHeight + "<br>";
+
 
         stats += "document.documentElement.scrollWidth: " + document.documentElement.scrollWidth + "<br>";
         stats += "document.documentElement.scrollHeight: " + document.documentElement.scrollHeight + "<br>";
