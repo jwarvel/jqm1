@@ -1,5 +1,5 @@
 $(function(){
-    function getStats(){
+    function getIframeStats(){
         var stats;
 
         stats = "window.innerWidth: " + window.innerWidth + "<br/>";
@@ -34,7 +34,7 @@ $(function(){
         return stats;
     }
 
-    $('.dimension-info').html(getStats())
+    $('.iframe1-info').html(getIframeStats())
 
 
 });
