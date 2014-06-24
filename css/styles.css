@@ -9,7 +9,7 @@
     width: 100%;
 }
 
-#frames-modal {
+#dimensions-modal {
     z-index: 100;
     position: absolute;
     height: 100px;
@@ -19,7 +19,7 @@
     background-color: #ddddff;
 }
 
-#iframe-modal {
+#iframe1-modal {
     z-index: 100;
     position: absolute;
     height: 100px;
