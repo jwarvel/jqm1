@@ -5,26 +5,35 @@
 
 
 #iframe1 {
-    height: 100%;
-    width: 100%;
+    width: 320px;
+    height: 400px;
+
 }
 
 #dimensions-modal {
     z-index: 100;
-    position: absolute;
     height: 100px;
     width: 100px;
-    top: 50px;
-    left: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     background-color: #ddddff;
 }
 
 #iframe1-modal {
+
+
     z-index: 100;
-    position: absolute;
     height: 100px;
     width: 100px;
-    top: 50px;
-    left: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     background-color: #ddddff;
 }
