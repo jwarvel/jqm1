@@ -8,3 +8,23 @@
     height: 100%;
     width: 100%;
 }
+
+#frames-modal {
+    z-index: 100;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    left: 50px;
+    background-color: #ddddff;
+}
+
+#iframe-modal {
+    z-index: 100;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    left: 50px;
+    background-color: #ddddff;
+}
